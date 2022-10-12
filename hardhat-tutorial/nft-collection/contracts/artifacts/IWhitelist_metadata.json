@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "whitelistedAddresses",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hardhat-tutorial/contracts/IWhitelist.sol": "IWhitelist"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hardhat-tutorial/contracts/IWhitelist.sol": {
+			"keccak256": "0x5b05272f2b7a34336f04f4233b6d967b1fe5e575a65f992fa5ac595c840ad726",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://17baa4580524c65837277c7c259735c0afcdd8ed55f9c43ca7217dccb3c5441a",
+				"dweb:/ipfs/QmNonou5xehnaW4WF2J1k22FmbSQYLs3qqG12Yr1vZNwng"
+			]
+		}
+	},
+	"version": 1
+}
